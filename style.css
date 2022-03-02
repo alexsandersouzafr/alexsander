@@ -85,7 +85,8 @@ html, body{
 }
 
 .dark {
-    background-color:#226cdc;
+    background:#226cdc ;
     color: antiquewhite;
     font-family: Tahoma, sans-serif;
+
 }
