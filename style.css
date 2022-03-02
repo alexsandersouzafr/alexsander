@@ -3,7 +3,6 @@
 
 html, body{
     height: 100%;
-    background-color: #226cdc;
     margin: 0px;
   }
 
@@ -12,7 +11,7 @@ html, body{
     background-color: #226cdc;
     background-blend-mode:multiply;
     background-size: cover;
-    animation: backcolors 15s infinite, backroll 100s infinite;
+    animation: backcolors 15s infinite, backroll 100s;
 }
 
 @keyframes backcolors {
@@ -30,8 +29,8 @@ html, body{
 
 .box{
     height: 100vh;
-    position: absolute;
     background-blend-mode:hard-light;
+    box-shadow: black;
 }
 
 .name {
@@ -71,3 +70,22 @@ html, body{
     .title {font-size:4rem; line-height: 1; padding-top: 150px; letter-spacing: 0;}
     .arrow {padding-top: 200px;}
     }
+
+.sp{
+    padding-inline: 30vh;
+}
+.aboutme {
+    font-family: 'Expletus Sans', cursive;
+    font-size: xx-large;
+}
+
+.about {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+}
+
+.dark {
+    background-color:#226cdc;
+    color: antiquewhite;
+    font-family: Tahoma, sans-serif;
+}
