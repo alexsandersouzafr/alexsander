@@ -8,7 +8,7 @@ html, body{
   }
 
 .blue {
-    background: url("assets/cardboard-texture.jpg"), url("assets/lines.jpg") repeat;
+    background: url("cardboard-texture.jpg"), url("lines.jpg") repeat;
     background-color: #226cdc;
     background-blend-mode:multiply;
     background-size: cover;
