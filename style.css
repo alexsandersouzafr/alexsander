@@ -6,9 +6,16 @@ html, body{
     margin: 0px;
   }
 
-  img {
-      position: relative;
-  }
+code{
+    color: #ff8a00;
+}
+.profile{
+    height: 250px;
+    width: 250px;
+    border-radius:20px;
+    filter:grayscale(100%);
+}
+
 .blue {
     background: url("cardboard-texture.jpg"), url("lines.jpg") repeat;
     background-color: #226cdc;
@@ -25,9 +32,21 @@ html, body{
     100% { background-color: #226cdc;}
 }
 
+@keyframes textcolor {
+    
+    0% { color: antiquewhite}
+    33% { color: #ff8a00;}
+    66% { color: antiquewhite}
+}
+
+
 @keyframes backroll {
     0% {background-position: 0% 0%;}
     100% {background-position: 100% 100%;}
+}
+
+.animacolor {
+    animation: textcolor 30s infinite;
 }
 
 .box{
@@ -60,20 +79,6 @@ html, body{
     bottom: 0;
 }
 
-@media only screen and (max-width: 600px) {
-    .blue {padding: 0%;}
-    .name {padding-top: 50px; font-size: 400%; line-height: 1;}
-    .title {font-size:4rem; line-height: 1; padding-top: 50px; letter-spacing: 0    ;}
-    .arrow {padding-top: 50px;}
-    }
-
-@media only screen and (min-width: 600px) and (max-width: 820px) {
-    .blue {padding: 0%;}
-    .name {padding-top: 200px; font-size: 600%; line-height: 1;}
-    .title {font-size:4rem; line-height: 1; padding-top: 150px; letter-spacing: 0;}
-    .arrow {padding-top: 200px;}
-    }
-
 .sp{
     padding-inline: 30vh;
 }
@@ -98,3 +103,29 @@ html, body{
     filter:grayscale(100%);
 }
 
+.skill{
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: antiquewhite;
+}
+
+@media only screen and (max-width: 600px) {
+    .blue {padding: 0%;}
+    .name {padding-top: 50px; font-size: 400%; line-height: 1;}
+    .title {font-size:4rem; line-height: 1; padding-top: 50px; letter-spacing: 0    ;}
+    .arrow {padding-top: 50px;}
+    .sp {padding-inline: 1vh;}
+    }
+
+@media only screen and (min-width: 600px) and (max-width: 820px) {
+    .blue {padding: 0%;}
+    .name {padding-top: 200px; font-size: 600%; line-height: 1;}
+    .title {font-size:4rem; line-height: 1; padding-top: 150px; letter-spacing: 0;}
+    .arrow {padding-top: 200px;}
+    .sp {padding-inline: 1vh;}
+    .profile {
+        width: 180px;
+        height: 180px;
+    }
+    }
