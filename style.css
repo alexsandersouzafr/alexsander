@@ -6,6 +6,9 @@ html, body{
     margin: 0px;
   }
 
+  img {
+      position: relative;
+  }
 .blue {
     background: url("cardboard-texture.jpg"), url("lines.jpg") repeat;
     background-color: #226cdc;
@@ -85,8 +88,13 @@ html, body{
 }
 
 .dark {
+    padding-top: 300px;
     background:#226cdc ;
     color: antiquewhite;
     font-family: Tahoma, sans-serif;
-
 }
+
+.grey {
+    filter:grayscale(100%);
+}
+
