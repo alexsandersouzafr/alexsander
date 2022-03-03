@@ -6,6 +6,10 @@ html, body{
     margin: 0px;
   }
 
+a:hover, a:visited, a:link, a:active {
+    text-decoration:none;
+}
+
 code{
     color: #ff8a00;
 }
@@ -124,8 +128,6 @@ code{
     .title {font-size:4rem; line-height: 1; padding-top: 150px; letter-spacing: 0;}
     .arrow {padding-top: 200px;}
     .sp {padding-inline: 1vh;}
-    .profile {
-        width: 180px;
-        height: 180px;
+    .profile {width: 180px; height: 180px;}
     }
-    }
+
